@@ -189,6 +189,8 @@ const observer = new IntersectionObserver(entries => {
     if (entry.isIntersecting) {
       history.replaceState(null, '', '#' + entry.target.id);
     }
+
+<section class="section" id="publications">
   });
 }, { threshold: 0.5 });
 
