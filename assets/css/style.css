@@ -1,3 +1,16 @@
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 420px;
+  height: 420px;
+  background: url('assets/img/butterfly.svg') no-repeat right top;
+  background-size: contain;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
 html{scroll-behavior:smooth;}
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Serif:wght@400;700&display=swap');
 
@@ -152,9 +165,20 @@ a:hover{ text-decoration:underline; }
 .section{
   border:none;
   border-radius:var(--radius);
-  padding:16px 18px;
+  padding:16px 0;
   margin-top:18px;
   background:transparent;;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+@media (min-width: 0px) {
+  .section {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
 /* What we study grid */
 .study-grid{
