@@ -102,34 +102,6 @@ html{scroll-behavior:smooth;}
   --pencil: rgba(0,0,0,.08);
 }
 
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#0b0c0f;
-    --fg:#f2f2f2;
-    --muted:#b5b5b5;
-    --link:#8fc59a;
-    --border:rgba(143,197,154,.35);
-    --card:rgba(143,197,154,.10);
-    --shadow: 0 10px 30px rgba(0,0,0,.35);
-    --paper:#0b0c0f;
-    --dot: rgba(255,255,255,.14);
-    --pencil: rgba(255,255,255,.10);
-  }
-}
-
-/* Forced dark theme when `.theme-dark` class is added to <html> */
-.theme-dark{
-  --bg:#0b0c0f;
-  --fg:#f2f2f2;
-  --muted:#b5b5b5;
-  --link:#8fc59a;
-  --border:rgba(143,197,154,.35);
-  --card:rgba(143,197,154,.10);
-  --shadow: 0 10px 30px rgba(0,0,0,.35);
-  --paper:#0b0c0f;
-  --dot: rgba(255,255,255,.14);
-  --pencil: rgba(255,255,255,.10);
-}
 
 *{ box-sizing:border-box; }
 
