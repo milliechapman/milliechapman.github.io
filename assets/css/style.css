@@ -260,6 +260,54 @@ a:hover{ text-decoration:underline; }
   padding-right:6px;
 }
 
+.scroll-window{
+  max-height: min(26rem, 60vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: var(--accent) var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(255,255,255,.48);
+  padding: 12px 16px 12px 12px;
+}
+
+.scroll-window:focus-visible{
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.publications-window ol{
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.publications-window{
+  margin-top: 1rem;
+  font-size: 0.94rem;
+}
+
+.news-window{
+  font-size: 0.94rem;
+}
+
+.publications-window li{
+  margin-bottom: 0.75rem;
+}
+
+.publications-window li::marker{
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.news-window .news-feed{
+  margin: 0;
+}
+
+.news-window .news-feed li:last-child{
+  margin-bottom: 0;
+}
+
 .people{
   display:grid;
   grid-template-columns: 1fr 1fr;
