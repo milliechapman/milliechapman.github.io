@@ -286,7 +286,7 @@ a:hover{ text-decoration:underline; }
   font-size: 0.9rem;
 }
 
-.news-window{
+.news-window, .teaching-list{
   font-size: 0.9rem;
 }
 
@@ -299,21 +299,21 @@ a:hover{ text-decoration:underline; }
   font-weight: 600;
 }
 
-.news-window .news-feed{
+.news-window .news-feed, .teaching-list{
   margin: 0;
   padding-left: 1.4rem;
 }
 
-.news-window .news-feed li{
+.news-window .news-feed li, .teaching-list li{
   margin-bottom: 0.55rem;
 }
 
-.news-window .news-feed li::marker{
+.news-window .news-feed li::marker, .teaching-list li::marker{
   color: var(--accent);
   font-size: 1.2em;
 }
 
-.news-window .news-feed li:last-child{
+.news-window .news-feed li:last-child, .teaching-list li:last-child{
   margin-bottom: 0;
 }
 
