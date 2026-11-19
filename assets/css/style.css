@@ -276,9 +276,23 @@ a:hover{ text-decoration:underline; }
   outline-offset: 3px;
 }
 
-.publications-window ol{
-  margin: 0;
+.publications-window ol,
+.publications-window ul{
+  margin: 0 0 1rem;
   padding-left: 1.5rem;
+}
+
+.publications-window h3{
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.publications-window .pub-note{
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--muted);
 }
 
 .publications-window{
